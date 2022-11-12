@@ -13,7 +13,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chargify"
         tools:targetApi="31">
-
+        <activity
+            android:name=".log"
+            android:exported="false"
+            android:label="@string/title_activity_log"
+            android:theme="@style/Theme.Chargify.NoActionBar" />
+        <activity
+            android:name=".LG"
+            android:exported="false"
+            android:label="@string/title_activity_lg"
+            android:theme="@style/Theme.Chargify.NoActionBar" />
+        <activity
+            android:name=".Loggin"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
